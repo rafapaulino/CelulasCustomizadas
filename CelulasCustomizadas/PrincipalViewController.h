@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CelulaCD.h"
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, CelulaCDDelegate>
+
+@property(nonatomic, weak) IBOutlet UITableView *tabela;
 
 @end

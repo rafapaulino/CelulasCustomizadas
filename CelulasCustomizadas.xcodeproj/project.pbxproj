@@ -20,6 +20,11 @@
 		6A19C54D1611DBC500045A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19C52E1611DBC500045A4B /* Foundation.framework */; };
 		6A19C5551611DBC500045A4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5531611DBC500045A4B /* InfoPlist.strings */; };
 		6A19C5581611DBC500045A4B /* CelulasCustomizadasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C5571611DBC500045A4B /* CelulasCustomizadasTests.m */; };
+		6A19C5661611DDAA00045A4B /* begintohope_reginaspektor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5621611DDAA00045A4B /* begintohope_reginaspektor.jpg */; };
+		6A19C5671611DDAA00045A4B /* citadelband_loneydear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5631611DDAA00045A4B /* citadelband_loneydear.jpg */; };
+		6A19C5681611DDAA00045A4B /* greatesthits_queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5641611DDAA00045A4B /* greatesthits_queen.jpg */; };
+		6A19C5691611DDAA00045A4B /* parachutes_coldplay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5651611DDAA00045A4B /* parachutes_coldplay.jpg */; };
+		6A19C56C1611E25B00045A4B /* CelulaCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C56B1611E25B00045A4B /* CelulaCD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,12 @@
 		6A19C5541611DBC500045A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A19C5561611DBC500045A4B /* CelulasCustomizadasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelulasCustomizadasTests.h; sourceTree = "<group>"; };
 		6A19C5571611DBC500045A4B /* CelulasCustomizadasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelulasCustomizadasTests.m; sourceTree = "<group>"; };
+		6A19C5621611DDAA00045A4B /* begintohope_reginaspektor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = begintohope_reginaspektor.jpg; sourceTree = "<group>"; };
+		6A19C5631611DDAA00045A4B /* citadelband_loneydear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = citadelband_loneydear.jpg; sourceTree = "<group>"; };
+		6A19C5641611DDAA00045A4B /* greatesthits_queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatesthits_queen.jpg; sourceTree = "<group>"; };
+		6A19C5651611DDAA00045A4B /* parachutes_coldplay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parachutes_coldplay.jpg; sourceTree = "<group>"; };
+		6A19C56A1611E25B00045A4B /* CelulaCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelulaCD.h; sourceTree = "<group>"; };
+		6A19C56B1611E25B00045A4B /* CelulaCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelulaCD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +127,9 @@
 				6A19C53E1611DBC500045A4B /* MainStoryboard.storyboard */,
 				6A19C5411611DBC500045A4B /* PrincipalViewController.h */,
 				6A19C5421611DBC500045A4B /* PrincipalViewController.m */,
+				6A19C56A1611E25B00045A4B /* CelulaCD.h */,
+				6A19C56B1611E25B00045A4B /* CelulaCD.m */,
+				6A19C5611611DDAA00045A4B /* capas cds */,
 				6A19C5331611DBC500045A4B /* Supporting Files */,
 			);
 			path = CelulasCustomizadas;
@@ -149,6 +163,17 @@
 				6A19C5531611DBC500045A4B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A19C5611611DDAA00045A4B /* capas cds */ = {
+			isa = PBXGroup;
+			children = (
+				6A19C5621611DDAA00045A4B /* begintohope_reginaspektor.jpg */,
+				6A19C5631611DDAA00045A4B /* citadelband_loneydear.jpg */,
+				6A19C5641611DDAA00045A4B /* greatesthits_queen.jpg */,
+				6A19C5651611DDAA00045A4B /* parachutes_coldplay.jpg */,
+			);
+			path = "capas cds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +250,10 @@
 			files = (
 				6A19C5371611DBC500045A4B /* InfoPlist.strings in Resources */,
 				6A19C5401611DBC500045A4B /* MainStoryboard.storyboard in Resources */,
+				6A19C5661611DDAA00045A4B /* begintohope_reginaspektor.jpg in Resources */,
+				6A19C5671611DDAA00045A4B /* citadelband_loneydear.jpg in Resources */,
+				6A19C5681611DDAA00045A4B /* greatesthits_queen.jpg in Resources */,
+				6A19C5691611DDAA00045A4B /* parachutes_coldplay.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +291,7 @@
 				6A19C5391611DBC500045A4B /* main.m in Sources */,
 				6A19C53D1611DBC500045A4B /* PrincipalAppDelegate.m in Sources */,
 				6A19C5431611DBC500045A4B /* PrincipalViewController.m in Sources */,
+				6A19C56C1611E25B00045A4B /* CelulaCD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
